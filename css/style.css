@@ -4,3 +4,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: var(--color-8);
+}
+header{
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.header_logo{
+    /*background: blue;*/
+}
+.header_logo img{
+
+}
+.header_nav{
+    /*background: green;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 54px;
+}
+.header_nav li{
+    /*background: yellow;*/
+    list-style: none;
+}
+.header_nav li a{
+    font-family: "Poppins-SemiBold";
+    color: var(--color-1);
+    text-decoration: none;
+    font-size: 28px;
+    display: flex;
+}
+.header_nav li a img{
+
+}
+
+.header_menu{
+    /*background: violet;*/
+}
+.header_menu img{
+
+}
