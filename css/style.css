@@ -253,14 +253,12 @@ main{
 .div__reviews-stars img{
     /* background: turquoise; */
     padding: 0;
-
 }
 .div__choose-type {
     /* background: violet; */
     display: flex;
     flex-direction: column;
     gap: 15px;
-   
 }
 .div__choose-type h3{
     color: var(--color-1);
@@ -286,4 +284,54 @@ main{
     align-items: center;
     outline: none;
     backdrop-filter: blur(3px);
+}
+
+
+
+
+.section__container-products {
+    background: red;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.div__trendy {
+    background: violet;
+    
+}
+.div__trendy h2 {
+}
+.div__trendy img{
+}
+.article__products{
+    background: green;
+    padding: 20px;
+    display: flex;
+    gap: 52px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.form__container-product {
+    background: orange;
+    width: 610px;
+    height: 360px;
+}
+.form__container-product img{
+}
+.div__product {
+    background: turquoise;
+}
+.div__product h3{
+}
+.div__product  label{
+}
+.div__type-order {
+    background: yellow;
+}
+.div__type-order input[type="submit"]{
+}
+.dic__product-amount {
+    background: olive;
+}
+.dic__product-amount input[type="submit"]{
 }
